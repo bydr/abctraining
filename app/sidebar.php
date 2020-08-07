@@ -54,6 +54,10 @@
                 </li>
             </ul>
         </nav>
+
+        <div class="d-flex w-100 d-md-none justify-content-center mb-20">
+            <?php include "header_controls.php" ?>
+        </div>
     </div>
     <div class="page-sidebar__overlay"></div>
 </div>

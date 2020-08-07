@@ -58,6 +58,9 @@ $(function () {
                     vertical: false,
                     horizontal: true
                 });
+
+        } else {
+            $('.customscroll').customScroll('destroy');
         }
     });
     /*custom scroll*/

@@ -20,22 +20,8 @@
                     </button>
                 </div>
 
-                <div class="header-controls d-none d-md-flex justify-content-end align-items-center">
-                    <button class="dr-btn dr-btn_box">
-                        <svg class="dr-icon">
-                            <use href="img/_src/sprite.svg#coin"></use>
-                        </svg>
-                    </button>
-                    <button class="dr-btn dr-btn_box">
-                        <svg class="dr-icon">
-                            <use href="img/_src/sprite.svg#faq"></use>
-                        </svg>
-                    </button>
-                    <button class="dr-btn dr-btn_box">
-                        <svg class="dr-icon">
-                            <use href="img/_src/sprite.svg#setting"></use>
-                        </svg>
-                    </button>
+                <div class="d-none d-md-flex justify-content-end align-items-center">
+                    <?php include "header_controls.php" ?>
                 </div>
             </div>
         </div>

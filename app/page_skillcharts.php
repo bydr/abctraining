@@ -76,8 +76,7 @@ require_once("head.php");
                                             </div>
                                         </div>
                                         <div class="skillcharts-grid__body customscroll">
-                                            <div class="custom-scroll-pretty_track-y"></div>
-                                            <div class="custom-scroll-pretty_track-x"></div>
+
 
                                             <table class="skillcharts-grid__table">
                                                 <thead class="skillcharts-grid__table_head">
@@ -522,8 +521,7 @@ require_once("head.php");
                                             </div>
                                         </div>
                                         <div class="skillcharts-grid__body customscroll">
-                                            <div class="custom-scroll-pretty_track-y"></div>
-                                            <div class="custom-scroll-pretty_track-x"></div>
+
 
                                             <table class="skillcharts-grid__table">
                                                 <thead class="skillcharts-grid__table_head">
@@ -921,8 +919,7 @@ require_once("head.php");
                                             </div>
                                         </div>
                                         <div class="skillcharts-grid__body customscroll">
-                                            <div class="custom-scroll-pretty_track-y"></div>
-                                            <div class="custom-scroll-pretty_track-x"></div>
+
 
                                             <table class="skillcharts-grid__table">
                                                 <thead class="skillcharts-grid__table_head">
@@ -968,29 +965,11 @@ require_once("head.php");
                                                                 <div class="block-stat__row">
                                                                     <div class="block-stat__item">
                                                                         <div class="block-stat__val">10</div>
-                                                                        <div class="block-stat__lbl"></div>
+                                                                        <div class="block-stat__lbl">удоб</div>
                                                                     </div>
                                                                     <div class="block-stat__item">
                                                                         <div class="block-stat__val">10</div>
-                                                                        <div class="block-stat__lbl"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="block-stat__row"><p
-                                                                            class="dr-text__small_extra"></p></div>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <div class="table-cell__inner">
-                                                            <div class="block-stat">
-                                                                <div class="block-stat__row">
-                                                                    <div class="block-stat__item">
-                                                                        <div class="block-stat__val">10</div>
-                                                                        <div class="block-stat__lbl"></div>
-                                                                    </div>
-                                                                    <div class="block-stat__item">
-                                                                        <div class="block-stat__val">10</div>
-                                                                        <div class="block-stat__lbl"></div>
+                                                                        <div class="block-stat__lbl">против</div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="block-stat__row"><p
@@ -1004,29 +983,11 @@ require_once("head.php");
                                                                 <div class="block-stat__row">
                                                                     <div class="block-stat__item">
                                                                         <div class="block-stat__val">10</div>
-                                                                        <div class="block-stat__lbl"></div>
+                                                                        <div class="block-stat__lbl">удоб</div>
                                                                     </div>
                                                                     <div class="block-stat__item">
                                                                         <div class="block-stat__val">10</div>
-                                                                        <div class="block-stat__lbl"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="block-stat__row"><p
-                                                                            class="dr-text__small_extra"></p></div>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <div class="table-cell__inner">
-                                                            <div class="block-stat">
-                                                                <div class="block-stat__row">
-                                                                    <div class="block-stat__item">
-                                                                        <div class="block-stat__val">10</div>
-                                                                        <div class="block-stat__lbl"></div>
-                                                                    </div>
-                                                                    <div class="block-stat__item">
-                                                                        <div class="block-stat__val">10</div>
-                                                                        <div class="block-stat__lbl"></div>
+                                                                        <div class="block-stat__lbl">против</div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="block-stat__row"><p
@@ -1040,11 +1001,47 @@ require_once("head.php");
                                                                 <div class="block-stat__row">
                                                                     <div class="block-stat__item">
                                                                         <div class="block-stat__val">10</div>
-                                                                        <div class="block-stat__lbl"></div>
+                                                                        <div class="block-stat__lbl">удоб</div>
                                                                     </div>
                                                                     <div class="block-stat__item">
                                                                         <div class="block-stat__val">10</div>
-                                                                        <div class="block-stat__lbl"></div>
+                                                                        <div class="block-stat__lbl">против</div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="block-stat__row"><p
+                                                                            class="dr-text__small_extra"></p></div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="table-cell__inner">
+                                                            <div class="block-stat">
+                                                                <div class="block-stat__row">
+                                                                    <div class="block-stat__item">
+                                                                        <div class="block-stat__val">10</div>
+                                                                        <div class="block-stat__lbl">удоб</div>
+                                                                    </div>
+                                                                    <div class="block-stat__item">
+                                                                        <div class="block-stat__val">10</div>
+                                                                        <div class="block-stat__lbl">против</div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="block-stat__row"><p
+                                                                            class="dr-text__small_extra"></p></div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="table-cell__inner">
+                                                            <div class="block-stat">
+                                                                <div class="block-stat__row">
+                                                                    <div class="block-stat__item">
+                                                                        <div class="block-stat__val">10</div>
+                                                                        <div class="block-stat__lbl">удоб</div>
+                                                                    </div>
+                                                                    <div class="block-stat__item">
+                                                                        <div class="block-stat__val">10</div>
+                                                                        <div class="block-stat__lbl">против</div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="block-stat__row"><p
@@ -1163,8 +1160,7 @@ require_once("head.php");
                                             </div>
                                         </div>
                                         <div class="skillcharts-grid__body customscroll">
-                                            <div class="custom-scroll-pretty_track-y"></div>
-                                            <div class="custom-scroll-pretty_track-x"></div>
+
 
                                             <table class="skillcharts-grid__table">
                                                 <thead class="skillcharts-grid__table_head">
@@ -1310,8 +1306,7 @@ require_once("head.php");
                                             </div>
                                         </div>
                                         <div class="skillcharts-grid__body customscroll">
-                                            <div class="custom-scroll-pretty_track-y"></div>
-                                            <div class="custom-scroll-pretty_track-x"></div>
+
 
                                             <table class="skillcharts-grid__table">
                                                 <thead class="skillcharts-grid__table_head">
