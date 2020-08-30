@@ -10,8 +10,8 @@
                 <svg class="dr-icon dr-icon_account">
                     <use xlink:href="img/_src/sprite.svg#account"></use>
                 </svg>
-                <p class="dr-h3">Александр</p>
-                <p class="dr-text__normal ff-secondary">Level: <span class="fw-bold dr-h3">B2</span></p>
+                <p class="dr-h4">Александр</p>
+                <p class="dr-text__normal ff-secondary">Level: <span class="fw-bold dr-h4">B2</span></p>
             </div>
             <div class="profile-characters__total">
                 <p class="dr-text__normal">Тренировки: <b>10</b></p>

@@ -64,4 +64,102 @@ $(function () {
         }
     });
     /*custom scroll*/
+
+    /*показать/скрыть пароль*/
+    var btnVisibleHiddenPswrd = ".dr-btn_password";
+    var parent = ".form-control__group-btn";
+    $(btnVisibleHiddenPswrd).on("click", function () {
+        var inputPswrd = $(this).closest(parent).find('input');
+        var typeInput = inputPswrd.attr("type") === "password"?"text":"password";
+        inputPswrd.attr("type", typeInput);
+        $(this).toggleClass('is-active');
+    });
+    /*показать/скрыть пароль*/
+
+
+    $('body').on('click', '.video-btn_play', function () {
+       var videoWrapper = $(this).closest('.video-wrapper');
+        videoWrapper
+           .find('.video-preview')
+           .addClass('video-preview_hidden');
+        videoWrapper
+            .find('video')
+            .eq(0)
+            .trigger('play');
+    });
+
+
+    let modalBtnClose = ".dr-modal__close";
+    let activeClass = "is-active";
+
+    /* открытие модалки по нажатию на кнопку */
+    $("*[data-modal]").on('click', function (e) {
+        e.preventDefault();
+        drModalShow($(this));
+    });
+
+    /* закрытие модалки по нажатию на кнопку */
+    $(modalBtnClose).on('click', function () {
+        drModalHide($(this));
+    });
+
+    function drModalHide(context) {
+        $(context).closest('.dr-modal').removeClass(activeClass);
+        $('html').removeClass('o-hidden');
+    }
+
+    function drModalShow(currentTarget, overlayStatus = true) {
+        let btnModalId = currentTarget.data('modal');
+        let modal = `.dr-modal[id="${btnModalId}"]`;
+        if (btnModalId) {
+            $(modal).addClass(activeClass);
+        }
+        $(modal).find('.dr-modal__overlay').eq(0).css("opacity", overlayStatus ? "1" : "0");
+        $('html').addClass('o-hidden');
+    }
+
+    $(".modal-cancel, #btn_deleteAccount").on("click", function () {
+        drModalHide($(this));
+    });
+
+    // $('.field-time').timepicker({
+    //     timeFormat: 'h:mm p',
+    //     interval: 1,
+    //     // minTime: '10',
+    //     // maxTime: '6:00pm',
+    //     defaultTime: '12',
+    //     startTime: '12:00',
+    //     dynamic: false,
+    //     dropdown: true,
+    //     scrollbar: true
+    // });
+
+    $('.timer-task__controls .dr-btn').on('click', function () {
+        //TODO: сделать по окончании таймера код ниже
+
+        $(this).removeClass('is-active');
+        if (!$(this).hasClass('timer-task__btn_repeat')) {
+            $(this).next().addClass('is-active');
+        } else {
+            $(this)
+                .closest('.timer-task__controls')
+                .find('.dr-btn')
+                .eq(0)
+                .addClass('is-active');
+        }
+    });
+
+    $('.tooltip-custom').on('click', function () {
+        let txtTooltip = $(this).data('tooltip-c-content');
+        let htmlTooltipNotice = `<span class="tooltip-custom__content">${txtTooltip}</span>`;
+
+        if ($(this).hasClass('is-active')) {
+            $(this).removeClass('is-active');
+            $(this).find('.tooltip-custom__content').remove();
+        } else {
+            $(this).append(htmlTooltipNotice);
+            $(this).addClass('is-active');
+        }
+
+    });
 });

@@ -6,17 +6,17 @@ require_once("head.php");
     <div class="container-fluid">
         <div class="row">
             <?php include "sidebar.php" ?>
-            <div class="col-sm-12 col-md-9 col-lg-9 col-xl-10">
+            <div class="col-sm-12 col-md-9 col-lg-9 col-xl-10 p-0">
                 <div class="page-content">
                     <?php include "header.php" ?>
                     <div class="page-content__inner">
                         <div class="page-content__header">
-                            <div class="col-md-3 d-flex justify-content-start">
+                            <div class="col-md-4 d-flex justify-content-start">
                                 <div class="dropdown">
                                     <div class="dropdown-header">
                                         <p class="dr-text__big c-accent">
                                             Total level:
-                                            <span class="dr-h3 c-accent_darken">0</span>
+                                            <span class="dr-h4 c-accent_darken">0</span>
                                         </p>
                                     </div>
                                     <div class="dropdown-drop">
@@ -48,7 +48,7 @@ require_once("head.php");
                             <div class="col">
                                 <h1 class="page-content__title dr-h1 text-center">Skills chart</h1>
                             </div>
-                            <div class="col-md-3 d-flex justify-content-end">
+                            <div class="col-md-4 d-flex justify-content-end">
                                 <nav class="date-nav">
                                     <button class="dr-btn date-nav__btn date-nav__btn_prev">
                                         <svg class="dr-icon">
