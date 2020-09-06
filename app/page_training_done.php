@@ -11,8 +11,7 @@ require_once("head.php");
                     <?php include "header.php" ?>
                     <div class="page-content__inner">
                         <div class="page-content__body">
-                            <div class="row">
-                                <div class="col-12">
+                            <div class="col-12">
                                      <div class="training-total">
                                          <div class="training-total__balance">
                                              <p class="dr-text__big fw-normal mb-20">Ваш баланс:</p>
@@ -53,12 +52,11 @@ require_once("head.php");
                                              </div>
                                          </div>
                                          <div class="training-total__image">
-                                             <img src="img/_src/t_done.png" alt="">
+                                             <img src="img/_src/done.svg" alt="">
                                              <p class="dr-h4 fw-normal c-accent_darker">Тренировка выполнена</p>
                                          </div>
                                      </div>
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </div>

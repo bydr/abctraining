@@ -26,43 +26,41 @@ require_once("head.php");
                             </div>
                         </div>
                         <div class="page-content__body">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="video-wrapper">
-                                        <div class="video-preview"
-                                             style="background-image:url(img/_src/video_preview.jpg);">
-                                            <button class="dr-btn dr-btn_box video-btn_play">
-                                                <svg class="dr-icon dr-icon_bigger dr-icon_white">
-                                                    <use xlink:href="img/_src/sprite.svg#play_btn"></use>
-                                                </svg>
-                                            </button>
-                                        </div>
-                                        <video
-                                                preload="auto"
-                                                controls
-                                                poster="img/_src/video_preview.jpg"
-                                        >
-                                            <source src="img/_src/video/Bodybuilding%20motivation%202020%20-%20Denis%20Gusev.mp4"
-                                                    type="video/mp4">
-                                        </video>
+                            <div class="col-12">
+                                <div class="video-wrapper">
+                                    <div class="video-preview"
+                                         style="background-image:url(img/_src/video_preview.jpg);">
+                                        <button class="dr-btn dr-btn_box video-btn_play">
+                                            <svg class="dr-icon dr-icon_bigger dr-icon_white">
+                                                <use xlink:href="img/_src/sprite.svg#play_btn"></use>
+                                            </svg>
+                                        </button>
                                     </div>
-                                    <div class="d-flex align-items-center justify-content-center text-center w-100 mt-30">
-                                        <label class="checkbox">
-                                            <input type="checkbox">
-                                            <span class="checkbox-inner">
-                                            <span class="checkbox-box">
-                                                <svg class="dr-icon dr-icon_white">
-                                                    <use xlink:href="img/_src/sprite.svg#check"></use>
-                                                </svg>
-                                            </span>
-                                            <span class="checkbox-text">Тренировка выполнена</span>
-                                        </span>
-                                        </label>
-                                    </div>
-                                    <div class="d-flex d-md-none w-100 text-center justify-content-center mt-30">
-                                        <a href="#" class="c-accent dr-text__small link-hover_color"
-                                           data-modal="modal_delay_workout">Перенести тренировку</a>
-                                    </div>
+                                    <video
+                                            preload="auto"
+                                            controls
+                                            poster="img/_src/video_preview.jpg"
+                                    >
+                                        <source src="img/_src/video/Bodybuilding%20motivation%202020%20-%20Denis%20Gusev.mp4"
+                                                type="video/mp4">
+                                    </video>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center text-center w-100 mt-30">
+                                    <label class="checkbox">
+                                        <input type="checkbox">
+                                        <span class="checkbox-inner">
+                                    <span class="checkbox-box">
+                                        <svg class="dr-icon dr-icon_white">
+                                            <use xlink:href="img/_src/sprite.svg#check"></use>
+                                        </svg>
+                                    </span>
+                                    <span class="checkbox-text">Тренировка выполнена</span>
+                                </span>
+                                    </label>
+                                </div>
+                                <div class="d-flex d-md-none w-100 text-center justify-content-center mt-30">
+                                    <a href="#" class="c-accent dr-text__small link-hover_color"
+                                       data-modal="modal_delay_workout">Перенести тренировку</a>
                                 </div>
                             </div>
                         </div>

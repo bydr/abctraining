@@ -54,7 +54,7 @@ require_once("head.php");
                                             <p class="dr-text__small mt-15">*тренировка будет списана с баланса в 00:00</p>
                                          </div>
                                          <div class="training-total__image">
-                                             <img src="img/_src/t_missed.png" alt="">
+                                             <img src="img/_src/cancel.svg" alt="">
                                              <p class="dr-h4 fw-normal c-accent_darker">Тренировка пропущена</p>
                                          </div>
                                      </div>

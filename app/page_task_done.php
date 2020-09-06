@@ -53,7 +53,7 @@ require_once("head.php");
                                              </div>
                                          </div>
                                          <div class="training-total__image">
-                                             <img src="img/_src/tasks_done.png" alt="">
+                                             <img src="img/_src/zadan.svg" alt="">
                                              <p class="dr-h4 fw-normal c-accent_darker">Тренировка выполнена</p>
                                          </div>
                                      </div>

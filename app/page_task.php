@@ -137,7 +137,7 @@ require_once("head.php");
                                                                         data-begin-time="00:00:10">00:00:10</p>
                                                                         <div class="timer-task__controls">
                                                                             <button class="dr-btn dr-btn_accent timer-task__btn_start is-active">Старт</button>
-                                                                            <button class="dr-btn dr-btn_outline dr-btn_outline_red timer-task__btn_stop">Стоп</button>
+                                                                            <button class="dr-btn dr-btn_accent timer-task__btn_stop">Стоп</button>
                                                                             <button class="dr-btn dr-btn_outline timer-task__btn_repeat">Заново</button>
                                                                         </div>
                                                                     </div>
@@ -159,7 +159,7 @@ require_once("head.php");
                                                                            data-begin-time="00:00:10">00:00:10</p>
                                                                         <div class="timer-task__controls">
                                                                             <button class="dr-btn dr-btn_accent timer-task__btn_start is-active">Старт</button>
-                                                                            <button class="dr-btn dr-btn_outline dr-btn_outline_red timer-task__btn_stop">Стоп</button>
+                                                                            <button class="dr-btn dr-btn_accent timer-task__btn_stop">Стоп</button>
                                                                             <button class="dr-btn dr-btn_outline timer-task__btn_repeat">Заново</button>
                                                                         </div>
                                                                     </div>
@@ -181,7 +181,7 @@ require_once("head.php");
                                                                            data-begin-time="00:00:10">00:00:10</p>
                                                                         <div class="timer-task__controls">
                                                                             <button class="dr-btn dr-btn_accent timer-task__btn_start is-active">Старт</button>
-                                                                            <button class="dr-btn dr-btn_outline dr-btn_outline_red timer-task__btn_stop">Стоп</button>
+                                                                            <button class="dr-btn dr-btn_accent timer-task__btn_stop">Стоп</button>
                                                                             <button class="dr-btn dr-btn_outline timer-task__btn_repeat">Заново</button>
                                                                         </div>
                                                                     </div>
@@ -203,7 +203,7 @@ require_once("head.php");
                                                                            data-begin-time="00:00:10">00:00:10</p>
                                                                         <div class="timer-task__controls">
                                                                             <button class="dr-btn dr-btn_accent timer-task__btn_start is-active">Старт</button>
-                                                                            <button class="dr-btn dr-btn_outline dr-btn_outline_red timer-task__btn_stop">Стоп</button>
+                                                                            <button class="dr-btn dr-btn_accent timer-task__btn_stop">Стоп</button>
                                                                             <button class="dr-btn dr-btn_outline timer-task__btn_repeat">Заново</button>
                                                                         </div>
                                                                     </div>
@@ -225,7 +225,7 @@ require_once("head.php");
                                                                            data-begin-time="00:00:10">00:00:10</p>
                                                                         <div class="timer-task__controls">
                                                                             <button class="dr-btn dr-btn_accent timer-task__btn_start is-active">Старт</button>
-                                                                            <button class="dr-btn dr-btn_outline dr-btn_outline_red timer-task__btn_stop">Стоп</button>
+                                                                            <button class="dr-btn dr-btn_accent timer-task__btn_stop">Стоп</button>
                                                                             <button class="dr-btn dr-btn_outline timer-task__btn_repeat">Заново</button>
                                                                         </div>
                                                                     </div>
@@ -247,7 +247,7 @@ require_once("head.php");
                                                                            data-begin-time="00:00:10">00:00:10</p>
                                                                         <div class="timer-task__controls">
                                                                             <button class="dr-btn dr-btn_accent timer-task__btn_start is-active">Старт</button>
-                                                                            <button class="dr-btn dr-btn_outline dr-btn_outline_red timer-task__btn_stop">Стоп</button>
+                                                                            <button class="dr-btn dr-btn_accent timer-task__btn_stop">Стоп</button>
                                                                             <button class="dr-btn dr-btn_outline timer-task__btn_repeat">Заново</button>
                                                                         </div>
                                                                     </div>
@@ -447,6 +447,17 @@ require_once("head.php");
                                                         </div>
                                                         <div class="task-item__controls">
                                                             <div class="checkbox-list">
+                                                                <label class="checkbox">
+                                                                    <input type="checkbox">
+                                                                    <span class="checkbox-inner">
+                                            <span class="checkbox-box">
+                                                <svg class="dr-icon dr-icon_white">
+                                                    <use xlink:href="img/_src/sprite.svg#check"></use>
+                                                </svg>
+                                            </span>
+                                            <span class="checkbox-text">Спина и опорная нога на одной прямой, задержаться - 10 секунд</span>
+                                        </span>
+                                                                </label>
                                                                 <label class="checkbox">
                                                                     <input type="checkbox">
                                                                     <span class="checkbox-inner">

@@ -11,8 +11,7 @@ require_once("head.php");
                     <?php include "header.php" ?>
                     <div class="page-content__inner">
                         <div class="page-content__body">
-                            <div class="row">
-                                <div class="col-12">
+                            <div class="col-12">
                                     <div class="content-full-height d-flex flex-column align-items-center justify-content-center">
                                         <h1 class="dr-h1 mb-20">Тренировка</h1>
                                         <h2 class="dr-h2 mb-40">будет доступна через:</h2>
@@ -25,7 +24,6 @@ require_once("head.php");
                                         </a>
                                     </div>
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </div>
