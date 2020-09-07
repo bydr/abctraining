@@ -72,5 +72,6 @@ require_once("head.php");
 </div>
 
 <?php
+echo file_get_contents('modal_delay_workout.php');
 require_once("foot.php");
 ?>

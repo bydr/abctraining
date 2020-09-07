@@ -1,3 +1,6 @@
+<?php
+$COUNT_STEPS_TESTING = 19;
+?>
 <!DOCTYPE html>
 <html lang="ru">
 
