@@ -11,12 +11,14 @@ require_once("head.php");
                     <?php include "header.php" ?>
                     <div class="page-content__inner">
                         <div class="page-content__header page-content__header_training">
-                            <div class="col-md-4 d-flex justify-content-start">
-                            </div>
-                            <div class="col">
-                                <h1 class="page-content__title dr-h1 text-center">Задание</h1>
-                            </div>
-                            <div class="col-md-4 justify-content-end d-none d-md-flex">
+                            <div class="page-content__header_row">
+                                <div class="col-md-4 d-flex justify-content-start">
+                                </div>
+                                <div class="col">
+                                    <h1 class="page-content__title dr-h1 text-center">Задание</h1>
+                                </div>
+                                <div class="col-md-4 justify-content-end d-none d-md-flex">
+                                </div>
                             </div>
                         </div>
                         <div class="page-content__body">

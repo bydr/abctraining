@@ -13,8 +13,10 @@ $currStep = 0;
                     <?php include "header.php" ?>
                     <div class="page-content__inner">
                         <div class="page-content__header page-content__header_training">
-                            <div class="col">
-                                <h1 class="page-content__title dr-h2 text-center">Тестирование</h1>
+                            <div class="page-content__header_row">
+                                <div class="col">
+                                    <h1 class="page-content__title dr-h2 text-center">Тестирование</h1>
+                                </div>
                             </div>
                         </div>
                         <div class="page-content__body">

@@ -215,4 +215,112 @@ $(function () {
             elToHeight.css('max-height', "initial");
         }
     }
+
+    $(document).ready(function () {
+        $('.month-day').each(function () {
+            if ($(this).text() === '11') {
+                $(this).closest('.dr-t-cell').addClass('current-day');
+            }
+        });
+    });
+
+    // var $tableRow = $('.dr-t-row');
+    // $tableRow.on('mousemove', function () {
+    //     if (!$(this).hasClass('hovered')) {
+    //         $(this).addClass('hovered');
+    //         $(this).closest('.dr-t').addClass('hovered');
+    //     }
+    // });
+    // $tableRow.on('mouseout', function () {
+    //     $(this).removeClass('hovered');
+    //     $(this).closest('.dr-t').removeClass('hovered');
+    // });
+
+    $(window).on('resize load', function() {
+        if ($(this).width() > 1024) {
+            $('.shedule-title').each(function () {
+                $(this).text($(this).data('shedule-title-full'))
+            });
+        } else {
+            $('.shedule-title').each(function () {
+                $(this).text($(this).data('shedule-title-short'))
+            });
+        }
+    });
+
+    $(document).ready(function() {
+        var $progressPointsContainer = $('.progress-points');
+        var $progressPointsCount = $progressPointsContainer.find('.progress-point').length;
+        /* get position number active element */
+        var $progressPointActiveInd = $progressPointsContainer
+            .find('.progress-point')
+            .index($('.active'));
+
+        /* width for one section (ex. for 3 section - width one = 33.333% */
+        var widthOneSection = 100 / ($progressPointsCount - 1);
+        /* start width value */
+        var $progressPointLineWidth = 0;
+
+        if ($progressPointActiveInd === ($progressPointsCount - 1)) {
+            $progressPointLineWidth = 100;
+        } else {
+            var i = 0;
+            while (i < $progressPointActiveInd) {
+                $progressPointLineWidth += widthOneSection;
+                i++;
+            }
+        }
+
+        $progressPointsContainer
+            .find('.progress-points__line')
+            .css('width', `${$progressPointLineWidth}%`);
+    });
+
+    var $weekRow = $('.week-row');
+    if (!$weekRow.closest('.week-list').hasClass('week-list_notjs')) {
+        $weekRow.on('click', function () {
+            if (!$(this).hasClass('is-active')) {
+                $weekRow.each(function () {
+                    $(this).removeClass('is-active');
+                });
+                $(this).addClass('is-active');
+            }
+        });
+    }
+
+
+    var $fieldTime = $(".field-time");
+    $(document).ready(function () {
+        if ($fieldTime) {
+            var sArrHours = getHoursList();
+            console.log(sArrHours);
+            var oArrDataSource = [
+                {
+                    component: 0,
+                    data: sArrHours
+                }
+            ];
+            $fieldTime.AnyPicker(
+                {
+                    mode: "datetime",
+                    dateTimeFormat: "hh:mm",
+                    theme: "iOS", // "Default", "iOS", "Android", "Windows"
+                    // layout: "inline",
+                    // inputChangeEvent: "onChange",
+                    dataSource: oArrDataSource
+                });
+        }
+    });
+
 });
+
+function getHoursList(endHoursVal = 24) {
+    let sArrHours = [];
+    for (let i = 1; i <= endHoursVal; i++ ) {
+        sArrHours.push({
+            val: i,
+            label: i
+        });
+    }
+    return sArrHours;
+}

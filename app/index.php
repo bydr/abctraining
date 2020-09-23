@@ -34,6 +34,13 @@
         <li><a href="page_testing_17.php">Тестирование. Шаг 17</a></li>
         <li><a href="page_testing_18.php">Тестирование. Шаг 18</a></li>
         <li><a href="page_testing_19.php">Тестирование. Шаг 19</a></li>
+        <li><a href="page_schedule.php">Расписание</a></li>
+        <li><a href="page_shedule_edit1.php">Расписание Изменение Шаг 1</a></li>
+        <li><a href="page_shedule_edit2.php">Расписание Изменение Шаг 2</a></li>
+        <li><a href="page_shedule_edit3.php">Расписание Изменение Шаг 3</a></li>
+        <li><a href="page_shedule_edit4.php">Расписание Изменение Шаг 4</a></li>
+        <li><a href="page_library.php">Библиотека</a></li>
+        <li><a href="page_balance.php">Баланс</a></li>
     </ol>
 </div>
 

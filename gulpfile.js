@@ -58,6 +58,9 @@ gulp.task('scripts', function() {
 		'app/libs/owl.carousel/dist/owl.carousel.min.js',
 		'app/js/jquery.custom-scroll.min.js',
 		'app/libs/jquery-timepicker-wvega/jquery.timepicker.js',
+		'app/libs/anypicker/dist/anypicker.min.js',
+		'app/libs/bootstrap/dist/js/bootstrap.min.js',
+		'app/libs/bootstrap/dist/js/bootstrap.bundle.min.js',
 		'app/js/common.js', // Always at the end
 		])
 	.pipe(concat('scripts.min.js'))

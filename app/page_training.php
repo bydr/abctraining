@@ -11,23 +11,25 @@ require_once("head.php");
                     <?php include "header.php" ?>
                     <div class="page-content__inner">
                         <div class="page-content__header page-content__header_training">
-                            <div class="col-md-4 d-flex justify-content-start">
-                                <p class="dr-h4 fw-normal c-dark access-text__container">
-                                    Доступ закроется через:
-                                    <span class="dr-text__bigger c-accent">12:42</span>
-                                </p>
-                            </div>
-                            <div class="col">
-                                <h1 class="page-content__title dr-h1 text-center">Тренировка</h1>
-                            </div>
-                            <div class="col-md-4 justify-content-end d-none d-md-flex">
-                                <a href="#" class="c-accent dr-text__small link-hover_color"
-                                   data-modal="modal_delay_workout">Перенести тренировку</a>
+                            <div class="page-content__header_row">
+                                <div class="col-md-4 col-12 d-flex justify-content-center justify-content-md-start">
+                                    <p class="dr-h4 fw-normal c-dark access-text__container">
+                                        Доступ закроется через:
+                                        <span class="dr-text__bigger c-accent">12:42</span>
+                                    </p>
+                                </div>
+                                <div class="col">
+                                    <h1 class="page-content__title dr-h1 text-center">Тренировка</h1>
+                                </div>
+                                <div class="col-md-4 justify-content-end d-none d-md-flex">
+                                    <a href="#" class="c-accent dr-text__small link-hover_color"
+                                       data-modal="modal_delay_workout">Перенести тренировку</a>
+                                </div>
                             </div>
                         </div>
                         <div class="page-content__body">
                             <div class="col-12">
-                                <div class="video-wrapper">
+                                <div class="video-wrapper video-wrapper_padding">
                                     <div class="video-preview"
                                          style="background-image:url(img/_src/video_preview.jpg);">
                                         <button class="dr-btn dr-btn_box video-btn_play">

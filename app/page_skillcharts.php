@@ -11,57 +11,59 @@ require_once("head.php");
                     <?php include "header.php" ?>
                     <div class="page-content__inner">
                         <div class="page-content__header">
-                            <div class="col-md-4 d-flex justify-content-start">
-                                <div class="dropdown">
-                                    <div class="dropdown-header">
-                                        <p class="dr-text__big c-accent">
-                                            Total level:
-                                            <span class="dr-h4 c-accent_darken">0</span>
-                                        </p>
-                                    </div>
-                                    <div class="dropdown-drop">
-                                        <div class="skillchart-total">
-                                            <div class="skillchart-total__row">
-                                                <p class="skillchart-total__title">С</p>
-                                                <p class="skillchart-total__val">1 - 34</p>
-                                            </div>
-                                            <div class="skillchart-total__row">
-                                                <p class="skillchart-total__title">B3</p>
-                                                <p class="skillchart-total__val">1 - 34</p>
-                                            </div>
-                                            <div class="skillchart-total__row">
-                                                <p class="skillchart-total__title">B2</p>
-                                                <p class="skillchart-total__val">1 - 34</p>
-                                            </div>
-                                            <div class="skillchart-total__row is-active">
-                                                <p class="skillchart-total__title">B1</p>
-                                                <p class="skillchart-total__val">1 - 34</p>
-                                            </div>
-                                            <div class="skillchart-total__row">
-                                                <p class="skillchart-total__title">A</p>
-                                                <p class="skillchart-total__val">1 - 34</p>
+                            <div class="page-content__header_row">
+                                <div class="col-md-4 d-flex justify-content-start">
+                                    <div class="dropdown">
+                                        <div class="dropdown-header">
+                                            <p class="dr-text__big c-accent">
+                                                Total level:
+                                                <span class="dr-h4 c-accent_darken">0</span>
+                                            </p>
+                                        </div>
+                                        <div class="dropdown-drop">
+                                            <div class="skillchart-total">
+                                                <div class="skillchart-total__row">
+                                                    <p class="skillchart-total__title">С</p>
+                                                    <p class="skillchart-total__val">1 - 34</p>
+                                                </div>
+                                                <div class="skillchart-total__row">
+                                                    <p class="skillchart-total__title">B3</p>
+                                                    <p class="skillchart-total__val">1 - 34</p>
+                                                </div>
+                                                <div class="skillchart-total__row">
+                                                    <p class="skillchart-total__title">B2</p>
+                                                    <p class="skillchart-total__val">1 - 34</p>
+                                                </div>
+                                                <div class="skillchart-total__row is-active">
+                                                    <p class="skillchart-total__title">B1</p>
+                                                    <p class="skillchart-total__val">1 - 34</p>
+                                                </div>
+                                                <div class="skillchart-total__row">
+                                                    <p class="skillchart-total__title">A</p>
+                                                    <p class="skillchart-total__val">1 - 34</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col">
-                                <h1 class="page-content__title dr-h1 text-center">Skills chart</h1>
-                            </div>
-                            <div class="col-md-4 d-flex justify-content-end">
-                                <nav class="date-nav">
-                                    <button class="dr-btn date-nav__btn date-nav__btn_prev">
-                                        <svg class="dr-icon">
-                                            <use xlink:href="img/_src/sprite.svg#arr_left"></use>
-                                        </svg>
-                                    </button>
-                                    <p class="date-nav__date">10.09.2020</p>
-                                    <button class="dr-btn date-nav__btn date-nav__btn_next">
-                                        <svg class="dr-icon">
-                                            <use xlink:href="img/_src/sprite.svg#arr_right"></use>
-                                        </svg>
-                                    </button>
-                                </nav>
+                                <div class="col">
+                                    <h1 class="page-content__title dr-h1 text-center">Skills chart</h1>
+                                </div>
+                                <div class="col-md-4 d-flex justify-content-end">
+                                    <nav class="date-nav">
+                                        <button class="dr-btn date-nav__btn date-nav__btn_prev">
+                                            <svg class="dr-icon">
+                                                <use xlink:href="img/_src/sprite.svg#arr_left"></use>
+                                            </svg>
+                                        </button>
+                                        <p class="date-nav__date">10.09.2020</p>
+                                        <button class="dr-btn date-nav__btn date-nav__btn_next">
+                                            <svg class="dr-icon">
+                                                <use xlink:href="img/_src/sprite.svg#arr_right"></use>
+                                            </svg>
+                                        </button>
+                                    </nav>
+                                </div>
                             </div>
                         </div>
                         <div class="page-content__body">
